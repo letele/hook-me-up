@@ -1,5 +1,5 @@
 {
-  "name": "hook-me-up",
+  "name": "@letele/hook-me-up",
   "version": "0.1.0",
   "description": "A collection of react hooks",
   "main": "index.js",
