@@ -127,7 +127,7 @@ const Modal = modal ? <div>show</div> : <div>hide</div>
 </details>
 
 <details>
-<summary>useScreenWidth</summary>
+<summary>useWindowDimensions</summary>
 
 ```js
 // Used to detect viewport of client
