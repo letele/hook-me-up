@@ -131,14 +131,13 @@ const Modal = modal ? <div>show</div> : <div>hide</div>
 
 ```js
 // Used to detect viewport of client
-import { useScreenWidth } from "@letele/hook-me-up"
+import { useWindowDimensions } from "@letele/hook-me-up"
 
-const width = useScreenWidth()
+const {height, width} = useWindowDimensions()
 
-if( widthSize <350){
-    console.log("viewport of client is less than 350px")
-    console.log("The device is probably a mobile phone ")
-}
+console.log(`Window height is ${height}`)
+
+console.log(`Window width is ${width}`)
 ```
 </details>
 
