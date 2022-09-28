@@ -2,7 +2,11 @@
   "name": "@letele/hook-me-up",
   "version": "0.1.0",
   "description": "A collection of react hooks",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest",
     "tsc": "tsc"
