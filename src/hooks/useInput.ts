@@ -24,9 +24,10 @@ export function useInput(initValue:(string|boolean)) {
     }
     
     return { 
-        onChangeI, onChangeII,onChangeIII, 
         validI, validII,validIII, 
         valueI, valueII,valueIII, 
+        setValueI, setValueII, setValueIII,
+        onChangeI, onChangeII,onChangeIII, 
         onSubmit,
     } 
 }
