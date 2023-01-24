@@ -113,15 +113,18 @@ const SelectForm = (
 </details>
 
 <details>
-<summary>useModal</summary>
+<summary>useInterval</summary>
 
 ```js
-// Used to handle modal display conditions 
-import { useModal } from "@letele/hook-me-up"
+// Used to create timers 
+import { useInterval } from "@letele/hook-me-up"
 
-const  {modal} = useModal()
+const interval = useInterval(-5,5,50)
 
-const Modal = modal ? <div>show</div> : <div>hide</div> 
+return (
+    // A countup timer between -5 and 5 in 50 milliseconds
+    <div>{interval}</div>
+) 
 
 ```
 </details>
