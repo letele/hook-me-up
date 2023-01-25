@@ -116,7 +116,7 @@ const SelectForm = (
 <summary>useInterval</summary>
 
 ```js
-// Used to create timers 
+// Creates a timer between two different integers.
 import { useInterval } from "@letele/hook-me-up"
 
 const interval = useInterval(-5,5,50)

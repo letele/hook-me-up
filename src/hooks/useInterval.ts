@@ -1,10 +1,10 @@
 import {  useEffect, useState } from 'react'
 /**
-* A react hook used create timer between intervals
+* A react hook used to create a timer between two different integers.
 * @param {number} start Integer value that specifies start of interval.
 * @param {number} end Integer value that specifies end of interval.
-* @param {number} delay Positive Integer value that spefies delay in milliseconds.
-* @returns count value that specifies each interval step
+* @param {number} delay Positive Integer value that specifies time delay in milliseconds.
+* @returns count value that specifies each interval step.
 */
 
 export function useInterval(start:number, end:number,delay:number) {

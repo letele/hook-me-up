@@ -8,8 +8,7 @@
   ],
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "jest",
-    "tsc": "tsc"
+    "tsc": "rm -rf lib && tsc"
   },
   "repository": {
     "type": "git",
