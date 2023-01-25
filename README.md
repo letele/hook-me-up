@@ -1,6 +1,6 @@
 ## hook-me-up
 
-### A collection of JavaScript react hooks written in Typescript.
+### A collection of custom React hooks.
 
 <details>
 <summary>useAPI</summary>
