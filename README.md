@@ -152,12 +152,12 @@ console.log(`Window width is ${width}`)
 import { VscChevronRight, VscChevronDown} from "react-icons/vsc";
 import { useToggle } from "@letele/hook-me-up"
 
-const  {mouseOver, ref, setToggled, toggled } = useToggle()
+const  {mouseOver, ref, setToggle, toggle } = useToggle()
 
-const Chevron = ({val}) => toggled === val?
+const Chevron = ({val}) => toggle === val?
 <VscChevronDown onClick={()=> setToggled(false)} /> :
 <VscChevronRight 
-    onClick={()=> setToggled(val)} 
+    onClick={()=> setToggle(val)} 
     onMouseOver={()=> mouseOver(val)}
 /> 
 
@@ -178,3 +178,13 @@ return (
 </details>
 
 
+<details>
+<summary>useKeyPress</summary>
+
+```js
+// Used to detect keys pressed by user
+import { useKeyPress } from "@letele/hook-me-up"
+const keysToUse = ['1','2','r','9']
+useKeyPress( keysToUse,key => console.log(key))
+```
+</details>

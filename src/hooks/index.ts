@@ -1,3 +1,4 @@
+export { useKeyPress } from './useKeyPress';
 export { useAPI } from './useAPI';
 export { useCanvas } from './useCanvas';
 export { useDidMount } from './useDidMount';
